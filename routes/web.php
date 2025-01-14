@@ -1,7 +1,8 @@
 <?php
 
 use App\Http\Controllers\Admin\DasoardController;
-use App\Http\Controllers\ProfileController;
+// use App\Http\Controllers\Admin\ProfileController as AdminProfileController;
+use App\Http\Controllers\Admin\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
